@@ -1,0 +1,28 @@
+write('length: '),
+length1([1,q,2,w,r,4,5,t6],X), write(X),ln.
+length([],Y),write(Y),ln.
+
+write('member: '),
+member1(r,[y,t,e]).
+findall(X,member1(X,[u,[y,o],y]),L),write(L).
+
+write('append: '),
+append1([[1,2],[i,y],[o,p]],[[111],[90,23,45,67],[appende,liste,printe]],X).
+append1(A,[p,y,t,h,o,n],[i,r,o,n,p,y,t,h,o,n]).
+
+write('remove: '),
+remove1([9,0],[[4,5],[7,8],[9,0],[a,b]],T).
+remove1(a,[b,c,d,r],U).
+
+write('permute: '),
+findall(X,permute1([4,5,6],X),L),write(L).
+findall(Y,permute1([[[h],[e,l]],[l],o,0],Y),M),write(M).
+
+write('last: '),
+last1([9,0,8,0,1],N1),!.
+last1([d,f,g,h,j,k,[p,o],[0]],N2),!.
+
+write('remove_n: '),
+remove_n([],Y,2).
+remove_n([1,2,4,1,6],L,3).
+

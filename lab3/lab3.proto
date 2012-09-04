@@ -1,0 +1,65 @@
+?- ['3_07.05.12.pro'].
+% 3_07.05.12.pro compiled 0.00 sec, -144 bytes
+true.
+
+?- taste_dfs(_).
+
+[[m, m, m], [k, k, k], [], []]
+ move right -> 
+[[m, m], [k, k], [m], [k]]
+ move left <- 
+[[m, m, m], [k, k], [], [k]]
+ move right -> 
+[[], [k, k], [m, m, m], [k]]
+ move left <- 
+[[m, m], [k, k], [m], [k]]
+ move right -> 
+[[], [k, k], [m, m, m], [k]]
+ move left <- 
+[[], [], [m, m, m], [k, k, k]]
+
+ boat: [1, 1]
+ boat: [1, 0]
+ boat: [3, 0]
+ boat: [2, 0]
+ boat: [2, 0]
+ boat: [0, 2]
+
+true .
+
+?- taste_bfs(_).
+
+[[m, m, m], [k, k, k], [], []]
+ move right -> 
+[[m, m], [k, k], [m], [k]]
+ move left <- 
+[[m, m, m], [k, k], [], [k]]
+ move right -> 
+[[], [k, k], [m, m, m], [k]]
+ move left <- 
+[[], [], [m, m, m], [k, k, k]]
+
+ boat: [1, 1]
+ boat: [1, 0]
+ boat: [3, 0]
+ boat: [0, 2]
+
+true .
+
+?- taste_iter(_).
+
+[[m, m, m], [k, k, k], [], []]
+ move right -> 
+[[m, m], [k, k], [m], [k]]
+ move left <- 
+[[m, m, m], [k, k], [], [k]]
+ move right -> 
+[[], [k, k], [m, m, m], [k]]
+ move left <- 
+[[], [], [m, m, m], [k, k, k]]
+
+ boat: [1, 1]
+ boat: [1, 0]
+ boat: [3, 0]
+ boat: [0, 2]
+

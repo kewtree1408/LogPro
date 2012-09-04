@@ -1,0 +1,7 @@
+get1([n,b,[l,k],0,9,[o]],4,P),!.
+get1(['p',r,0,ololo,'G'],5,P),!.
+findall(P,get1(['p',r,0,ololo,'G'],N,P),L).
+get2(['p',r,0,ololo,'G'],5,P),!.
+get2(['p',r,0,ololo,'G'],9,P),!.
+get2(['p',r,0,ololo,'G'],0,P),!.
+get2(['p',r,0,ololo,'G'],2,P),!.

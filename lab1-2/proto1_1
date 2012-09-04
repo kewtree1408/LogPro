@@ -1,0 +1,27 @@
+victoria@fantasy:/media/Study/myMAI/6_semestr/LP/lab1-2$ swipl -f lab1_1.pl < query1_1 
+% /media/Study/myMAI/6_semestr/LP/lab1-2/lab1_1.pl compiled 0.00 sec, 2,840 bytes
+Welcome to SWI-Prolog (Multi-threaded, 32 bits, Version 5.8.0)
+Copyright (c) 1990-2009 University of Amsterdam.
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+Please visit http://www.swi-prolog.org for details.
+
+For help, use ?- help(Topic). or ?- apropos(Word).
+
+P = 0.
+
+P = 'G'.
+
+L = [p, r, 0, ololo, 'G'].
+
+P = 'G'.
+
+false.
+
+false.
+
+P = r.
+
+
+% halt
+
